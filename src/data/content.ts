@@ -18,27 +18,25 @@ export const profile = {
   github: 'https://github.com/prasanthe2005',
   resumeUrl: '#', // Replace with your actual resume URL or use '/resume.pdf' if you add it to public folder
   headline:
-    'Motivated IT fresher with strong programming fundamentals, hands-on projects, and a growth mindset.',
+    'Computer Science and Engineering student with strong programming fundamentals and practical full‑stack experience.',
   summary:
-    'Computer Science and Engineering student focused on clean, efficient application design. Comfortable with modern web stacks, problem-solving, and quickly learning new tools to deliver reliable solutions.',
+    'Computer Science and Engineering student with a strong foundation in programming, data structures, and core computer science principles. Experienced in building software solutions using modern web technologies, focused on writing clean, maintainable, and scalable code.',
   availability: 'Open to internships and entry-level software roles',
-  about: `I am a passionate Computer Science student at Bannari Amman Institute of Technology with a strong foundation in programming and software development. My journey in tech has been driven by curiosity and a desire to create impactful solutions.
+  about: `I am a Computer Science and Engineering student at Bannari Amman Institute of Technology. I have built full‑stack web applications using React, Node.js, Express, and both MongoDB and MySQL. I enjoy designing reliable systems, solving algorithmic problems, and creating intuitive user experiences.
 
-I have hands-on experience building full-stack applications using React, Node.js, and MongoDB. I enjoy tackling challenging problems, whether it's optimizing algorithms or designing intuitive user interfaces. My academic performance (CGPA: 8.51) and certifications (NPTEL Java - Top 5%) demonstrate my commitment to excellence.
-
-Beyond academics, I actively participate in coding contests and community service through NSS. I believe in continuous learning and staying updated with the latest technologies. My goal is to contribute to innovative projects while growing as a software engineer.`,
+My academic performance (CGPA: 8.49) and certifications such as NPTEL Java reflect my commitment to learning. I have solved hundreds of problems on LeetCode and actively participate in coding contests and community service through NSS. I am eager to contribute to impactful software projects and grow as an engineer.`,
 }
 
 export const stats = [
-  { label: 'CGPA', value: '8.51' },
-  { label: 'LeetCode', value: '200+ problems' },
+  { label: 'CGPA', value: '8.49' },
+  { label: 'LeetCode', value: '300+ problems' },
   { label: 'Community', value: 'NSS Volunteer' },
 ]
 
 export const skills = [
   {
     title: 'Languages',
-    items: ['Java', 'Python', 'C', 'C++', 'JavaScript'],
+    items: ['Java', 'Python', 'JavaScript', 'C'],
   },
   {
     title: 'Core CS',
@@ -46,11 +44,11 @@ export const skills = [
   },
   {
     title: 'Web & Backend',
-    items: ['React', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'HTML', 'CSS'],
+    items: ['React', 'Node.js', 'Express.js', 'MongoDB', 'MySQL', 'REST APIs', 'HTML', 'CSS', 'Tailwind CSS', 'Vite'],
   },
   {
     title: 'Tools',
-    items: ['GitHub', 'VS Code', 'MongoDB Compass'],
+    items: ['GitHub', 'VS Code', 'MongoDB Compass', 'Postman'],
   },
 ]
 
@@ -59,13 +57,26 @@ export const projects: Project[] = [
     title: 'Hospital Management System',
     period: 'Jul 2025 – Oct 2025',
     summary:
-      'Full-stack appointment booking and doctor scheduling platform with role-based access.',
+      'Built a full‑stack appointment booking and doctor scheduling system with role‑based access.',
     highlights: [
-      'Designed RESTful APIs with Node.js and Express for appointments, doctors, and patients.',
-      'Built responsive React UI with Tailwind for patients, doctors, and admin roles.',
-      'Persisted schedules and bookings in MongoDB with validation and secure access control.',
+      'Implemented role‑based access for Admin, Doctor, and Patient with secure authentication.',
+      'Designed RESTful APIs using Node.js and Express for appointments, doctors, and patients.',
+      'Managed patient, doctor, and appointment data in MongoDB and implemented conflict resolution.',
+      'Developed responsive UI using React and Tailwind CSS for smooth booking flows.',
     ],
     tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+  },
+  {
+    title: 'Hostel Management Portal',
+    period: '2025',
+    summary:
+      'Web‑based hostel management system to automate student room allocation and administration.',
+    highlights: [
+      'Implemented role‑based access for Admin and Student to ensure secure operations.',
+      'Designed room allocation logic using First Come First Serve (FCFS) and support for up to three preferences per request.',
+      'Built request and approval workflows and persisted data in MySQL via Express APIs.',
+    ],
+    tech: ['Vite', 'JavaScript', 'Node.js', 'Express.js', 'MySQL'],
   },
   {
     title: 'E-Commerce Storefront',
