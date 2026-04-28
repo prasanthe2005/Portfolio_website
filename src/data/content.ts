@@ -97,7 +97,7 @@ export const education = [
     school: 'Bannari Amman Institute of Technology, Sathyamangalam',
     credential: 'B.E. Computer Science and Engineering',
     period: '2023 – 2027',
-    detail: 'CGPA: 8.51',
+    detail: 'CGPA: 8.49',
   },
   {
     school: 'Government Boys Higher Secondary School, Avinashi',
@@ -113,7 +113,7 @@ export const certifications = [
 ]
 
 export const achievements = [
-  'Solved 200+ problems on LeetCode covering DSA and algorithms.',
+  'Solved 300+ problems on LeetCode covering Data Structures and Algorithms.',
   'Active NSS volunteer with participation in community programs.',
   'Regular participant in coding contests and technical events.',
 ]
